@@ -33,7 +33,7 @@ Sure, you already know how to do this with an array, but if you didn't, writing 
 
 **3** Every design decision has a trade-off. Focusing on one thing means you won't have time to focus on another.
 
-**4** You have an hour and 15 minutes to build your calculator.
+**4** You have two hours and 15 minutes to build your calculator.
 
 **5** Make sure your final project is hosted on github.com and that every group member has collaborator access to the repository.
 
