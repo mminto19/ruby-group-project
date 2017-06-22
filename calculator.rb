@@ -21,9 +21,9 @@
 #     puts "Your numbers don't want to do that with you..."
 # end 
 
-puts "What is your name?"
+puts "What is your FIRST name?"
 name1=gets.chomp.length
-puts "What is your partner's name?"
+puts "What is your partner's FIRST name?"
 name2=gets.chomp.length
 
 total_count=name1+name2.to_f
@@ -35,8 +35,8 @@ if total_count <= 10
         if percent < 46
             puts "So sorry. Your relationship is doomed :( "
         end
-        if percent > 90
-            puts "Congratulations! You two should get married RIGHT NOW!"
+        if percent > 89
+            puts "Congratulations! You two should get married immediately! <3"
         end
 elsif total_count <= 20 
     percent=(total_count/20)*100
@@ -44,10 +44,19 @@ elsif total_count <= 20
         if percent < 46
             puts "So sorry. Your relationship is doomed :( "
         end
-        if percent > 90
-            puts "Congratulations! You two should get married RIGHT NOW!"
+        if percent > 89
+            puts "Congratulations! You two should get married immediately! <3"
         end
-elsif total_count<20
+elsif total_count <= 30 
+    percent=(total_count/30)*100
+    puts "Your compability is #{percent} percent"
+        if percent < 46
+            puts "So sorry. Your relationship is doomed :( "
+        end
+        if percent > 89
+            puts "Congratulations! You two should get married immediately! <3"
+        end
+elsif total_count>30
    puts "Find a new partner."
 end
 
