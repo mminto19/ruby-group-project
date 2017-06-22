@@ -28,10 +28,31 @@ name2=gets.chomp.length
 
 total_count=name1+name2.to_f
 
-if total_count <= 20 
+
+if total_count <= 10
+    percent=(total_count/10)*100
+    puts "Your compability is #{percent} percent"
+        if percent < 46
+            puts "So sorry. Your relationship is doomed :( "
+        end
+        if percent > 90
+            puts "Congratulations! You two should get married RIGHT NOW!"
+        end
+elsif total_count <= 20 
     percent=(total_count/20)*100
-    puts "Your compabilithy is #{percent} percent"
-end 
+    puts "Your compability is #{percent} percent"
+        if percent < 46
+            puts "So sorry. Your relationship is doomed :( "
+        end
+        if percent > 90
+            puts "Congratulations! You two should get married RIGHT NOW!"
+        end
+elsif total_count<20
+   puts "Find a new partner."
+end
+
+
+
 
 
 
